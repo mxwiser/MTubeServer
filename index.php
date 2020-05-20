@@ -1,1 +1,3 @@
 <?php
+
+date_add();
