@@ -11,7 +11,6 @@ $html=<<<EOT
     <title>Test</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/icon.ico">
-
   </head>
   <body>
     <h1 id="abc">MxXW</h1>
