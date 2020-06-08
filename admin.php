@@ -14,7 +14,7 @@ $html=<<<EOT
 
   </head>
   <body>
-    <h1 id="abc">你好，世界！</h1>
+    <h1 id="abc">MxXW</h1>
     <button type="button" class="btn btn-primary" id="mhide">HIDE</button>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
