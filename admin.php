@@ -23,4 +23,7 @@ $html=<<<EOT
   </body>
 </html>
 EOT;
-echo $html;
+
+phpinfo();
+
+//echo $html;
