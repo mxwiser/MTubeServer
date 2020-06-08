@@ -21,7 +21,7 @@ $html=<<<EOT
     <script>
       $(document).ready(function() {
         $("button").click(function() {
-          $("#abc").hide();
+          $("#abc").toggle();
         });
       });
 </script>
