@@ -10,19 +10,23 @@ $html=<<<EOT
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
+    <link rel="shortcut icon" href="./img/icon.ico">
+
   </head>
   <body>
-    <h1>你好，世界！</h1>
+    <h1 id="abc">你好，世界！</h1>
+    <button type="button" class="btn btn-primary" id="mhide">HIDE</button>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $("#abc").hide();
+        });
+      });
+</script>
   </body>
 </html>
 EOT;
 
-phpinfo();
-
-//echo $html;
+echo $html;
