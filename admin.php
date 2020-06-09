@@ -13,8 +13,12 @@ $html=<<<EOT
     <link rel="shortcut icon" href="./img/icon.ico">
   </head>
   <body>
-    <h1 id="abc">MxXW</h1>
-    <button type="button" class="btn btn-primary" id="mhide">HIDE</button>
+  <div class="container">
+  <div class="align-items-center">
+   <h1 id="abc">MxXW</h1>
+   <button type="button" class="btn btn-primary" id="mhide">HIDE</button>
+</div>
+   </div>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script>
@@ -27,5 +31,4 @@ $html=<<<EOT
   </body>
 </html>
 EOT;
-
 echo $html;
