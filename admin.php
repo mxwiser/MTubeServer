@@ -23,7 +23,7 @@ $html=<<<EOT
     <script src="./js/bootstrap.min.js"></script>
     <script>
       $(document).ready(function() {
-        $("button").click(function() {
+        $("#mhide").click(function() {
           $("#abc").toggle();
         });
       });
